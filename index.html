@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Alex Magee | Software Developer</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1/new.min.css">
+        <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
+        <style>
+            nav {
+                margin-top: -15px;
+                margin-bottom: 15px;
+                width: 100%;
+                text-align: center;
+            }
+
+            h1, h2, h3 {
+                border-bottom: 0;
+            }
+
+            ul { 
+                list-style-type: '⇀ ';
+            }
+
+            a {
+                text-decoration: none;
+                cursor: pointer;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+
+            .print-only {
+                display: none
+            }
+
+            @media print { 
+                button, a, .no-print {
+                    display: none
+                }
+
+                .print-only {
+                    display: block
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Alex Magee</h1>
+            <p>Software Developer</p>
+        </header>
+
+        <nav role="navigation" aria-label="Main" class="no-print">
+            <a href="https://github.com/xmagee" target="_blank" rel="noreferrer">Github</a> |  
+            <a href="mailto:alex@magee.us">Email</a>
+        </nav>
+
+        <nav class="print-only">
+            github.com/xmagee | alex@magee.us
+        </nav>
+
+        <main>
+            <p>
+                Hi! 👋 I am currently self-employed as a contract-based software 
+                developer, looking for employment; Salary preferred. My most used 
+                languages in production environments are Javascript, 
+                C#/VB.NET/ASP.NET, Sql, and en_US. Check out my Github to see my 
+                current and past projects, some of them are kinda cool :)
+            </p>
+
+            <h2>Employment Experience 💼</h2>
+            <ul>
+                <li>
+                    <h3>Self-employed</h3><strong>Contract-based [ 📅 May 2020 - Present ]</strong>
+                    <p>Full-stack web application development, testing, and maintenance using Sql Server, C# / .NET 5 (WebAPI), and
+                        ReactJS. Wordpress administration and maintenance. VB.NET desktop application maintenance. MS Access database
+                        migration (from MS Access to Sql Server). Git / Gitlab project management.</p><wbr>
+                </li>
+                <li>
+                    <h3>Software Developer Intern</h3><strong>American Refining Group [ 📅 May 2019 - April 2020 ]</strong>
+                    <p>Completed necessary changes to ARG's purchasing management system (VB.NET, ASP.NET). Made changes to ARG's
+                        Wordpress-based contractor safety exam website. Created a simple but effective web app to track the I.T.
+                        department's assets using Sql Server, C# / .NET Core 3.1 (WebAPI), and ReactJS. </p><wbr>
+                </li>
+                <li>
+                    <h3>Quality Assurance Intern</h3><strong>Graham Packaging [ 📅 August 2018 - April 2019 ]</strong>
+                    <p>Completed quality testing and logged testing data using in-house software.</p><wbr>
+                </li>
+            </ul>
+
+            <h2>Formal Education 🏫</h2>
+            <ul>
+                <li>
+                    <h3>University of Pittsburgh at Bradford</h3><strong>[ 📅 September 2016 - April 2020 ]</strong>
+                    <p>B.S. Computer Information Systems and Technology; Software Development Focus. President, Pitt-Bradford I.T. Club.
+                        Treasurer, Webmaster, Pitt-Bradford Esports.</p><wbr>
+                </li>
+                <li>
+                    <h3>Bradford Area High School</h3><strong>[ 📅 September 2012 - June 2016 ]</strong>
+                    <p>HS Degree. Computer Maintenance Technical Program (3 years), SkillsUSA competitor, A+ Certified (Exp. 2018),
+                        NOCTII Skills Certified.</p><wbr>
+                </li>
+            </ul>
+
+            <h2>Showcase 💻</h2>
+            <ul>
+                <li>
+                    <h3>React Gists</h3><strong>[ 📅 2021 ]</strong>
+                    <p>A website for referencing ReactJS Github Gists that are neat / helpful.</p>
+                    visit: <a href="https://react-gists.netlify.app/" target="_blank">React Gists</a>
+                    <span class="print-only">https://react-gists.netlify.app/</span>
+                    <wbr>
+                </li>
+                <li>
+                    <h3>CASA McKean Website</h3><strong>[ 📅 2018 - Present ]</strong>
+                    <p>Website maintenance, small updates.</p>
+                    visit: <a href="https://casamckean.org/" target="_blank">CASA McKean</a>
+                    <span class="print-only">https://casamckean.org/</span>
+                    <wbr>
+                </li>
+                <li>
+                    <h3>Tuna Valley Towing &amp; Recovery Website</h3><strong>[ 📅 2013 - Present ]</strong>
+                    <p>Website maintenance, website hosting, email hosting.</p>
+                    visit: <a href="http://tunavalleytowing.com/"target="_blank">Tuna Valley Towing</a> 
+                    <span class="print-only">http://tunavalleytowing.com/</span>
+                    <wbr>
+                </li>
+            </ul>
+        </main>
+    </body>
+</html>
